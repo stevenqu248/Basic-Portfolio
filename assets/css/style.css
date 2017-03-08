@@ -1,0 +1,134 @@
+.textLinks
+{
+	color: #777777;
+	float: right;
+	margin-top: 15px;
+	margin-right: 50px;
+}
+
+.button
+{
+	background-color: #4aaaa5;
+	width: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: none;
+	color: white;
+}
+
+.headerName
+{
+	float: left;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-left: 50px;
+	font-size: 20px;
+}
+
+.headerLinks
+{
+	float: right;
+}
+
+.contentBackground
+{
+	background-color: #f0f0f0;
+	padding-top: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-bottom: 1px;
+	overflow: auto;
+	width: 100%;
+}
+
+#contactHeader
+{
+	color: #4aaaa5;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	border-color: #dddddd;
+	border-style: solid;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-top-width: 0px;
+	font-size: 30px;
+}
+
+#contactContent
+{
+	width: 60%;
+	float: left;
+	background-color: white;
+	border-radius: 1px;
+	border-color: #dddddd;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+#externalLinks
+{
+	width: 20%;
+	float: right;
+	background-color: white;
+	padding-top: 20px;
+	padding-right: 20px;
+	margin-top: 20px;
+	margin-right: 40px;
+	margin-bottom: 500px;
+}
+
+#externalLinksHeader
+{
+	text-align: center;
+	color: #4aaaa5;
+	margin-left: 20px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+	border-color: #dddddd;
+	border-style: solid;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-top-width: 0px;
+}
+
+#externalLinksBody
+{
+	padding-top: 15px;
+	padding-bottom: 30px;
+	padding-left: 20%;
+}
+
+#header
+{
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #cccccc;
+	overflow: auto;
+}
+
+#footer
+{
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #4aaaa5;
+	background-color: #666666;
+	color: white;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-size: 10px;
+	text-align: center;
+}
