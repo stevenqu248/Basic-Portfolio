@@ -1,8 +1,28 @@
-.textLinks
+body
 {
 	color: #777777;
+}
+
+input
+{
+	color: #cccccc;
+}
+
+a:link, a:visited, a:hover, a:active
+{
+	color: #777777;
+}
+
+a.itemBanner
+{
+	color: white;
+	text-decoration: none;
+}
+
+.textLinks
+{
 	float: right;
-	margin-top: 15px;
+	margin-top: 20px;
 	margin-right: 50px;
 }
 
@@ -29,23 +49,27 @@
 	font-size: 20px;
 }
 
-.headerLinks
+.portfolioItem
 {
-	float: right;
+	float: left;
+	margin: 20px;
 }
 
-.contentBackground
+.itemBanner
 {
-	background-color: #f0f0f0;
-	padding-top: 1px;
-	padding-left: 1px;
-	padding-right: 1px;
-	padding-bottom: 1px;
-	overflow: auto;
-	width: 100%;
+	text-align: center;
+	color: white;
+	background-color: #4aaaa5;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	width: 256px;
+	margin-left: -256px;
+	margin-top: 200px;
+	position: absolute;
 }
 
-#contactHeader
+
+#contentHeader
 {
 	color: #4aaaa5;
 	padding-bottom: 15px;
@@ -59,7 +83,7 @@
 	font-size: 30px;
 }
 
-#contactContent
+#Content
 {
 	width: 60%;
 	float: left;
@@ -111,6 +135,8 @@
 
 #header
 {
+	width: 100%;
+	background-color: white;
 	border-bottom-style: solid;
 	border-bottom-width: 2px;
 	border-bottom-color: #cccccc;
@@ -121,6 +147,7 @@
 {
 	position: fixed;
 	bottom: 0px;
+	left: 0px;
 	width: 100%;
 	border-top-style: solid;
 	border-top-width: 5px;
