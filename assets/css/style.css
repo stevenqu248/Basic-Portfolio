@@ -1,24 +1,31 @@
 body
 {
-/*	background-image: "assets/images/halftone.png";
-*/	background: url('assets/images/halftone.png') center center;
+	background-image: url("../images/halftone.png");
 	overflow: auto;
+}
+
+body::after
+{
+	clear: both;
 }
 
 input
 {
-	color: #cccccc;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 a:link, a:visited, a:hover, a:active
 {
 	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 a.itemBanner
 {
 	color: white;
 	text-decoration: none;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .textLinks
@@ -26,6 +33,7 @@ a.itemBanner
 	float: right;
 	margin-top: 20px;
 	margin-right: 50px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .button
@@ -36,6 +44,7 @@ a.itemBanner
 	padding-bottom: 10px;
 	border: none;
 	color: white;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .headerName
@@ -49,12 +58,14 @@ a.itemBanner
 	padding-right: 30px;
 	margin-left: 50px;
 	font-size: 20px;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 .portfolioItem
 {
 	float: left;
 	margin: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .itemBanner
@@ -68,6 +79,7 @@ a.itemBanner
 	margin-left: -256px;
 	margin-top: 200px;
 	position: absolute;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 
@@ -83,6 +95,7 @@ a.itemBanner
 	border-right-width: 0px;
 	border-top-width: 0px;
 	font-size: 30px;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 #Content
@@ -98,6 +111,8 @@ a.itemBanner
 	padding-bottom: 20px;
 	margin-top: 20px;
 	margin-left: 20px;
+	margin-bottom: 120px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 #externalLinks
@@ -110,11 +125,7 @@ a.itemBanner
 	margin-top: 20px;
 	margin-right: 40px;
 	margin-bottom: 500px;
-}
-
-#externalLinks::after
-{
-	clear: both;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 #externalLinksHeader
@@ -131,6 +142,7 @@ a.itemBanner
 	border-left-width: 0px;
 	border-right-width: 0px;
 	border-top-width: 0px;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 #externalLinksBody
@@ -138,6 +150,7 @@ a.itemBanner
 	padding-top: 15px;
 	padding-bottom: 30px;
 	padding-left: 20%;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 #header
@@ -148,6 +161,7 @@ a.itemBanner
 	border-bottom-width: 2px;
 	border-bottom-color: #cccccc;
 	overflow: auto;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 #footer
@@ -165,4 +179,5 @@ a.itemBanner
 	padding-bottom: 40px;
 	font-size: 10px;
 	text-align: center;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
